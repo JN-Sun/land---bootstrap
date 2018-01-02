@@ -1,1 +1,1 @@
-# Quickly page making on Bootstrap
+# Project was builded via bootstrap
