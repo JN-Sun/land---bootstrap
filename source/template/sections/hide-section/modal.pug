@@ -1,0 +1,12 @@
+div.modal.fade#dlModal
+	div.modal-dialog
+		div.modal-content
+			div.modal-header
+				button.close(type="button" data-dismiss="modal" aria-label="Close") <span aria-hidden="true">&times;</span>
+				h4.modal-title Download
+			div.modal-body
+				form#dlForm(action="#")
+					input.form-control(type="text" placeholder="Your name")
+					input.form-control(type="email" placeholder="E-mail")
+					input.form-control(type="password" placeholder="Enter your password")
+					input.my_btn.btn_md.btn-block(type="submit" value="send")

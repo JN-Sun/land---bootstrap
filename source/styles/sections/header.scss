@@ -1,0 +1,52 @@
+header{
+	height: 680px;
+	background-color: #2a2e48;
+	background-image: url('../images/banner.jpg');
+
+	background-size: cover;
+}
+
+	nav{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 94px;
+		z-index: 999;
+		line-height: 94px;
+
+		.logo{
+			padding-top: 35px;
+		}
+
+			.menu{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				li{
+					display: inline-block;
+					padding: 0 20px;
+
+					a{
+						color: #fff;
+						text-transform: uppercase;
+						font-family: $ff-bold;
+						transition: color 0.3s;
+					}
+					a:hover, a:focus{
+						text-decoration: none;
+						color: #E86F6F;
+					}
+
+					a.menu_link.menu_link-active{
+						color: #E86F6F;
+					}
+				}
+			}
+
+		.top_line{
+			height: 1px;
+			background-color: #e1e1e1;
+		}
+	}
+

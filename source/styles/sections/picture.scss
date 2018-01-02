@@ -1,0 +1,31 @@
+.picture{
+	&_block{
+		position: relative;
+		margin: 1px;
+	}
+		&_wrap{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			opacity: 0;
+			background-color: rgba(212, 64, 64, 0.5);
+			transition: opacity, 0.5s;
+		}
+
+		&_wrap:hover{
+			opacity: 1;
+			cursor: pointer;
+		}
+			&_descr{
+				color: #fff;
+				text-align: center;
+				margin: auto;
+				h4{
+					font-family: $ff-bold;
+					text-transform: uppercase;
+				}
+			}
+}

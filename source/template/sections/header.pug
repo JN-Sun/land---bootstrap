@@ -1,0 +1,30 @@
+header.header
+	nav
+		div.container
+			div.row
+				div.navbar-header
+					button.navbar-toggle.collapsed.menu_btn(data-toggle="collapse" data-target="#top_menu")
+						span.fa.fa-bars.fx-2(aria-hidden="true")
+					a.navbar-brand.logo(href="index.html")
+						img(src="images/logo.png" alt="logo")
+
+				div.collapse.navbar-collapse.navbar-right#top_menu
+					- var items = ["features", "works", "our team", "testimonials", "download"]
+					- var dataItms = ["header", "service", "picture", "team", "download"]
+					ul.menu
+						each item, key in items
+							if item === "features"
+								li
+									a.menu_link.menu_link-active(href="#" data-link=dataItms[key])= item
+							else
+								li
+									a.menu_link(href="#" data-link=dataItms[key])= item
+
+
+			div.top_line
+
+	include hero
+
+
+
+

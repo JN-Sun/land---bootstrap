@@ -1,0 +1,43 @@
+.team{
+	padding: 95px 0 40px;
+	color: #6c7279;
+
+
+
+	.team_item{
+		h4 {
+			font-family: $ff-bold;
+			color: #2D3033;
+			margin-top: 30px;
+		}
+		span{
+			text-transform: uppercase;
+			color: #E84545;
+			font-size: 13px;
+		}
+		p{
+			padding: 20px 0 15px;
+			font-size: 14px;
+		}
+
+	}
+
+}
+
+.download{
+
+	&_block{
+		padding: 90px 0;
+		text-align: center;
+		p{
+			margin-bottom: 35px;
+			text-transform: uppercase;
+			font-size: 13px;
+			font-family: $ff-bold;
+		}
+
+		.btn_lg{
+			padding: 15px 80px;
+		}
+	}
+}
